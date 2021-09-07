@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "Постройте полноценную, функционирующую СЭС вместе с нами!",
+      "subTitle": "Всего за 3 следующих шага:",
+      "image": "",
+      "alt": "",
+      "direction": "column"
+    },
+    {
+      "id": 2,
+      "title": "Первый шаг.",
+      "subTitle": "Определить потребности. Произвести замеры на объекте. Подобрать оборудование. Подписать договор.",
+      "image": "/images/misc/home-tv.jpg",
+      "alt": "Tiger King on Netflix",
+      "direction": "row"
+    },
+    {
+      "id": 3,
+      "title": "Второй шаг.",
+      "subTitle": "Разработка и согласование проекта. Коплектация системы. Поставка оборудования.",
+      "image": "/images/misc/home-mobile.jpg",
+      "alt": "Watch on mobile",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 4,
+      "title": "Третий шаг.",
+      "subTitle": "Строительно-монтажные работы. Тест и запуск системы. Оформление 'Зелёного тарифа' и подключение к РЭС.",
+      "image": "/images/misc/home-imac.jpg",
+      "alt": "Money Heist on Netflix",
+      "direction": "row"
+    }
+  ]
+  
