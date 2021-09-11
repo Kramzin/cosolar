@@ -6,8 +6,8 @@ export const Container = styled.div`
   border-bottom: 3px solid rgb(198, 35, 104);
   text-align: center;
   padding: 50px 45px;
-  @media (max-width: 900px) {
-    padding: 20px 45px;
+  @media (max-width: 500px) {
+    padding: 20px 45px 0px 45px;
     border-bottom: 2px solid rgb(198, 35, 104);
   }
 `;

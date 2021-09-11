@@ -178,3 +178,13 @@
     margin: 0px 0px 0px 50px;
   }
 }
+
+.calculator__main {
+  background: #8383c4;
+  aspect-ratio: 960/360;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./layer4.svg");
+}

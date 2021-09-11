@@ -155,14 +155,16 @@ export const PlayButton = styled.button`
 `;
 
 export const AddressMobile = styled.div`
-color: black;
-padding: 0px 5px 15px;
-text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.9);
-font-size: 1.58rem;
-text-align: center;
-font-family: "Lato", sans-serif;
-letter-spacing: 0.05em;
-font-weight: 900;
-line-height: 1;
-}
+  color: black;
+  padding: 0px 5px 15px;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.9);
+  font-size: 1.58rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 900;
+  line-height: 1;
+  @media (max-width: 600px) {
+    font-size: 1.39rem;
+  }
 `;

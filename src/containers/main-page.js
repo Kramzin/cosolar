@@ -6,6 +6,7 @@ import { FooterContainer } from "../containers/footer";
 import { PartnersContainer1 } from "../containers/partners";
 import { CarouselContainer } from "./owl-carousel";
 import { CarouselContainer1 } from "./owl-carousel1";
+import { Calculator, CompoundInterest } from "./calculator";
 
 export function MainPageContainer() {
   return (
@@ -99,6 +100,8 @@ export function MainPageContainer() {
         <MainPage>
           <CarouselContainer1 />
         </MainPage>
+        <CompoundInterest />
+
         <MainPage.ContainConsultation>
           <div className="get__help">Получить персональный расчёт.</div>
           <img className="main__calc" src="../images/free-consultation.png" />
