@@ -1,26 +1,59 @@
 import React from "react";
-import { MainPage } from "../components";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.min.css";
+import "./styles/owl-types-constructions.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import "owl.carousel/dist/assets/owl.theme.default.min.css";
+import styled from "styled-components/macro";
+
+const styles = {
+  borderTop: "4px solid black",
+};
+
+const options = {
+  autoplay: true,
+};
+
+const ButtonLink = styled.a`
+  color: black;
+  text-decoration: none;
+  padding: 6px 6px;
+  &:hover {
+    color: black;
+  }
+`;
 
 export function CarouselContainer() {
   return (
-    <OwlCarousel className="owl-theme full-slider" items="3" autoplay loop>
-      <div className="item">
-        <img src="../images/zinc1.jpg" />
+    <div className="owl-carousel owl-theme" style={styles} {...options}>
+      <div className="slide slide-1">
+        <div className="slide-content">
+          <h1>Конструкция из цинка</h1>
+          <p>
+            Вариант подороже, но более надёжный и требует меньше обслуживания.
+          </p>
+          <button>
+            <ButtonLink href="#contacts">УЗНАТЬ ПОПОДРОБНЕЕ</ButtonLink>
+          </button>
+        </div>
       </div>
-      <div className="item">
-        <img src="../images/zinc2.jpg" />
+      <div className="slide slide-2">
+        <div className="slide-content">
+          <h1>Конструкция из чёрного металла</h1>
+          <p>Менее затратный материал, но требует ежегодного обслуживания.</p>
+          <button>
+            <ButtonLink href="#contacts">УЗНАТЬ ПОПОДРОБНЕЕ</ButtonLink>
+          </button>
+        </div>
       </div>
-      <div className="item">
-        <img src="../images/zinc3.jpg" />
+      <div className="slide slide-3">
+        <div className="slide-content">
+          <h1>Нестандартная конфигурация</h1>
+          <button>
+            <ButtonLink href="#contacts">
+              ПОЛУЧИТЬ ПЕРСОНАЛЬНУЮ КОНСУЛЬТАЦИЮ
+            </ButtonLink>
+          </button>
+        </div>
       </div>
-      <div className="item">
-        <img src="../images/zinc4.jpg" />
-      </div>
-    </OwlCarousel>
+    </div>
   );
 }

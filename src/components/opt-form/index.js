@@ -1,12 +1,26 @@
 import React from "react";
-import { Container, Input, Break, Button, Text } from "./styles/opt-form";
+import {
+  Container,
+  Input,
+  InputContacts,
+  Break,
+  Button,
+  Text,
+} from "./styles/opt-form";
 
 export default function OptForm({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
 
-OptForm.Input = function OptFormInput({ ...restProps }) {
-  return <Input {...restProps} />;
+OptForm.Input = function OptFormInput({ children, ...restProps }) {
+  return <Input {...restProps}>{children}</Input>;
+};
+
+OptForm.InputContacts = function OptFormInputContacts({
+  children,
+  ...restProps
+}) {
+  return <InputContacts {...restProps}>{children}</InputContacts>;
 };
 
 OptForm.Button = function OptFormButton({ children, ...restProps }) {

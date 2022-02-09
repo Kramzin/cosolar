@@ -1,28 +1,27 @@
 [
     {
       "id": 1,
-      "header": "What is Netflix?",
-      "body": "Netflix is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more – on thousands of internet-connected devices.\n\nYou can watch as much as you want, whenever you want, without a single advert – all for one low monthly price. There's always something new to discover, and new TV programmes and films are added every week!"
+      "header": "Что такое 'Зелёный тариф'?",
+      "body": "Государственная программа стимуляции развития альтернативной энергетики. Это тариф, по которому с 2009 года, государство покупает электроэнергию, произведенную из альтернативных источников (солнца, воздуха, воды, земли) по фиксированной цене.\n\nБлагодаря этой государственной программе, уже 28 000 украинских семей установили солнечные станции для собственного потребления и получают пассивный доход от продажи излишков энергии для дома. "
     },
     {
       "id": 2,
-      "header": "How much does Netflix cost?",
-      "body": "Watch Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one low fixed monthly fee. Plans start from £5.99 a month. No extra costs or contracts."
+      "header": "Для каких задач подойдет сетевая солнечная электростанция на 30 кВт?",
+      "body": "Мы рекомендуем выбирать сетевые станции на 30 кВт, когда цель: \n\n-Полностью покрыть большой расход электроэнергии в домохозяйстве \n-Получать максимальную прибыль от продажи электроэнергии по “зеленому” тарифу \n-Выгодно инвестировать деньги с окупаемостью от 3 лет \n\n Также солнечная станция, вне зависимости от ее вида и мощности, помогает сделать вклад в защиту экологии и развитие альтернативной энергетики нашей страны."
     },
     {
       "id": 3,
-      "header": "Where can I watch?",
-      "body": "Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.\n\nYou can also download your favourite programmes with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."
+      "header": "Сколько можно заработать на СЭС в 30 кВт?",
+      "body": "Прибыльность станции зависит от нескольких факторов:\n\n-Мощность станции \n-Тип оборудования \n-Эффективность монтажа \n-Собственного потребления \n\nЕсли вы приобретёте солнечную электростанцию с  мощностью 30 кВт, наши инсталляторы учтут все особенности вашей местности и установят панели для наилучшего КПД, то максимальный пассивный доход от продажи электроэнергии, с учетом покрытия собственного потребления, составит порядка $7 500."
     },
     {
       "id": 4,
-      "header": "How do I cancel?",
-      "body": "Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account at any time."
+      "header": "Каков принцип работы сетевой солнечной электростанции?",
+      "body": "Сетевая солнечная станция состоит из фотомодулей, инвертора, двунаправленного счетчика, конструкции и вспомогательных соединений. \n\nСолнечные панели генерируют постоянный ток инвертор преобразовывает в переменный. Если солнечной энергии не хватает, инвертор в автоматическом режиме “смешивает” сетевую и зеленую энергию без заметных для пользователя переключений в работе. Вся энергия, которую домохозяйство не потребляет, поступает в общую сеть. В конце месяца государственное предприятие «Гарантированный покупатель» оплачивает владельцу станции каждый кВт чистой энергии, которая попала в общую сеть, по фиксированному “зеленому” тарифу €0,162 за 1 кВт⋅год."
     },
     {
       "id": 5,
-      "header": "What can I watch on Netflix?",
-      "body": "Netflix has an extensive library of feature films, documentaries, TV programmes, anime, award-winning Netflix originals, and more. Watch as much as you want, any time you want."
+      "header": "Какое оборудование входит в комплект солнечной электростанции на 30 кВт?",
+      "body": "Сетевая солнечная станция – это набор оборудования от различных производителей, которое монтажники собирают в единую систему и подключают к общей сети. Чтобы будущим владельцам станции было проще оценить стоимость и результаты работы всей станции, а не отдельного оборудования. Компании-инсталляторы предлагают готовые комплекты из инвертора, солнечных панелей и другого оборудования. В дальнейшем при проектировании станции конкретно для вашего дома и под ваши задачи, оборудование и услуги в наборе могут корректироваться."
     }
   ]
-  

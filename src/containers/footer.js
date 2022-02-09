@@ -9,9 +9,8 @@ export function FooterContainer() {
       <Footer.Row>
         <Footer.Column>
           <div className="footer__sub"> Адрес: </div>
-          <Footer.Link href="#">
-            490055 Украина, Днепропетровская область, г. Днепр, проспект
-            Яворницкого 55
+          <Footer.Link>
+            490055 Украина, г. Днепр, проспект Яворницкого 55
           </Footer.Link>
           <Footer.Link href="mailto:volzki2018@gmail.com">
             Email: volzki2018@gmail.com

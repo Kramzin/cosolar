@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Karla");
 
+.calculator {
+}
+
 .body {
-  font-family: "Karla", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 24px;
 }
 

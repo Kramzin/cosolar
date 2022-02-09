@@ -39,6 +39,7 @@ export const Link = styled.a`
 
 export const Title = styled.p`
   font-size: 17px;
+  width: fit-content;
   color: #ababab;
   margin-bottom: 30px;
 `;

@@ -1,0 +1,19 @@
+#owl-demo .owl-carousel {
+  height: 100px !important;
+}
+#owl-demo .item {
+  width: fit-content;
+  background: inherit;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: 65px;
+  background: inherit;
+  border: none;
+}
+.owl-carousel {
+  width: 100%;
+  height: 10vh;
+  /* border-top: 10px solid black; */
+}

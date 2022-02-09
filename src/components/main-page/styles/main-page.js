@@ -2,10 +2,11 @@ import styled from "styled-components/macro";
 
 export const Item = styled.div`
   display: flex;
-  border-bottom: 3px solid rgb(198, 35, 104);
-  padding: 40px 5%;
+  // border-bottom: 2px solid rgb(250, 126, 118);
+  // padding: 40px 5%;
+  padding-bottom: 20px;
   color: white;
-  background: #001220;
+  background: black;
   overflow: hidden;
 `;
 
@@ -14,7 +15,7 @@ export const Inner = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-direction: ${({ direction }) => direction};
-  max-width: 1100px;
+  // max-width: 1100px;
   margin: auto;
   width: 100%;
 
@@ -26,7 +27,7 @@ export const Inner = styled.div`
 export const Pane = styled.div`
   width: 50%;
   color: inherit;
-  background: #001220;
+  background: black;
   @media (max-width: 1000px) {
     width: 100%;
     padding: 0 45px;
@@ -47,6 +48,7 @@ export const Title = styled.h1`
 
 export const SubTitle = styled.h2`
   font-size: 20px;
+  padding-top: 10px;
   font-weight: normal;
   line-height: normal;
   text-align: center;
@@ -62,10 +64,9 @@ export const Image = styled.img`
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  transition: box-shadow 0.9s;
-  transition: border-width 0.9 linear;
+  transition: all 0.45s ease;
+  transition-property: transform, box-shadow background;
   border-radius: 10px;
-  border: solid 0px blue;
   background: radial-gradient(
     circle,
     rgba(0, 0, 255, 0.04) 0%,
@@ -73,7 +74,7 @@ export const Image = styled.img`
   );
   cursor: pointer;
   &:hover {
-    border-width: 1px;
+    transform: scale(1.1);
     box-shadow: rgba(0, 0, 255, 0.53) 1px 1px 60px;
     background: radial-gradient(
       circle,
@@ -92,7 +93,7 @@ export const Container = styled.div`
 `;
 
 export const Contain = styled.div`
-  border-bottom: 8px solid #222;
+  // border-bottom: 4px solid #222;
   padding: 0px;
   color: white;
   overflow: hidden;
@@ -114,13 +115,15 @@ export const Contain = styled.div`
 `;
 
 export const ContainConsultation = styled.div`
-  border-bottom: 8px solid #222;
-  padding: 50px 5%;
+  padding: 30px 5px 5px;
+  margin-top: -20px;
   color: white;
   overflow: hidden;
   align-items: center;
   justify-content: space-between;
-  background: #001220;
+  background: #ffffff;
+  border-top: 10px solid black;
+  border-bottom: 1px solid black;
 
   @media (max-width: 1100px) {
     ${({ dontShowOnSmallViewPort }) =>
@@ -129,5 +132,9 @@ export const ContainConsultation = styled.div`
 `;
 
 export const ContainPartners = styled.div`
-  background-color: inherit;
+  color: white;
+  padding: 20px 0px 0px 0px;
+  background-color: #142c47;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
 `;

@@ -6,10 +6,9 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
-  Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import "./styles.css";
+import "./styles/styles.css";
 
 import Summary from "./summary.js";
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./styles.css";
+import "./styles/styles.css";
 
 function toNumber(value) {
   return value.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -7,7 +7,7 @@ function toNumber(value) {
 
 function Summary({ period, data }) {
   return (
-    <>
+    <div className="calculator">
       <h2>Summary</h2>
       <p>
         In {period} years, you will have -
@@ -31,7 +31,7 @@ function Summary({ period, data }) {
           ))}
         </tbody>
       </table>
-    </>
+    </div>
   );
 }
 

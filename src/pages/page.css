@@ -1,0 +1,15 @@
+.info__header {
+  background: white;
+  width: fit-content;
+  align-self: flex-end;
+  border: 1px solid black;
+  color: black;
+  padding: 20px 0px;
+  max-width: 800px;
+}
+@media screen and (max-width: 900px) {
+  .info__header {
+    align-self: center;
+    padding: 12px 12px;
+  }
+}

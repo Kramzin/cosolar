@@ -3,35 +3,22 @@ import { Link as ReachRouterLink } from "react-router-dom";
 
 export const Background = styled.div`
   background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.35),
-      rgba(198, 35, 104, 0.1),
-      rgba(198, 35, 104, 0.2),
-      rgba(198, 35, 104, 0.3),
-      rgba(198, 35, 104, 0.5),
-      rgba(198, 35, 104, 0.8),
-      rgba(198, 35, 104, 0.9),
-      rgba(198, 35, 104, 1)
+      180deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%
     ),
     url(${({ src }) =>
         src ? `../images/misc/${src}.jpg` : "../images/background_up.jpg"})
-      top left / cover no-repeat;
-
+      center / cover no-repeat;
   @media (max-width: 1100px) {
     background: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.35),
-        rgba(198, 35, 104, 0.1),
-        rgba(198, 35, 104, 0.2),
-        rgba(198, 35, 104, 0.3),
-        rgba(198, 35, 104, 0.5),
-        rgba(198, 35, 104, 0.8),
-        rgba(198, 35, 104, 0.9),
-        rgba(198, 35, 104, 1)
+        180deg,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%
       ),
       url(${({ src }) =>
           src ? `../images/misc/${src}.jpg` : "../images/Summer.jpg"})
-        top left / cover no-repeat;
+        center / cover no-repeat;
     ${({ dontShowOnSmallViewPort }) =>
       dontShowOnSmallViewPort && `background: none;`}
   }
@@ -41,15 +28,28 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 56px;
   height: auto;
+  min-height: 100px;
+  position: fixed;
+  z-index: 100;
+  margin-bottom: 0px;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background: white;
   justify-content: space-between;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1000px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 56px;
+    height: auto;
+    justify-content: space-between;
+  }
+  @media (max-width: 500px) {
+    display: flex;
+    position: inherit;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     justify-content: space-between;
   }
@@ -78,22 +78,25 @@ export const Group = styled.div`
 
 export const ButtonLink = styled(ReachRouterLink)`
   display: flex;
-  background-color: black;
+  background-color: #e50914;
   width: fit-content;
   text-align: center;
   align-items: center;
   height: fit-content;
   color: white;
-  border: 1px solid #e6f2ff;
-  font-size: 17px;
-  border-radius: 10px;
-  padding: 10px 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0px 10px 0px 0px;
   cursor: pointer;
   text-decoration: none;
 
   &:hover {
     background: #151313;
     color: white;
+  }
+
+  &:disabled {
+    opacity: 0.5;
   }
 `;
 
@@ -125,12 +128,15 @@ export const Text = styled.p`
 `;
 
 export const Logo = styled.img`
-  height: 200px;
-  width: 240px;
+  height: 160 px;
+  width: 322px;
+  // object-fit: cover;
+  margin: 0px 0px 8px 10px;
 
-  @media (mi-width: 1) {
-    height: 145px;
-    width: 310px;
+  @media (max-width: 380px) {
+    height: 85px;
+    width: 250px;
+    margin: 0px 0px 8px 10px;
   }
 `;
 
@@ -156,15 +162,21 @@ export const PlayButton = styled.button`
 
 export const AddressMobile = styled.div`
   color: black;
-  padding: 0px 5px 15px;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.9);
-  font-size: 1.58rem;
+  margin-right: 10px;
+  padding: 0px 5px 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  font-size: 1.6rem;
   text-align: center;
-  font-family: "Lato", sans-serif;
-  letter-spacing: 0.05em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.07em;
   font-weight: 900;
   line-height: 1;
   @media (max-width: 600px) {
-    font-size: 1.39rem;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+  @media (max-width: 362px) {
+    font-size: 1.35rem;
+    padding: 0px 0px 10px;
   }
 `;

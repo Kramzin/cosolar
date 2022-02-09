@@ -1,7 +1,7 @@
 import * as React from "react";
 import InputVariables from "./input-variables.js";
 import CalculatorChart from "./calculator-chart.js";
-import "./styles.css";
+import "./styles/styles.css";
 
 export function CompoundInterest() {
   const defaultState = {
