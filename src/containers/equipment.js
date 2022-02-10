@@ -54,7 +54,7 @@ export class Equipment extends React.Component {
                 </div>
                 <div class="info">
                   <div class="main">Днепр</div>
-                  <div class="sub">30 МвТ</div>
+                  <div class="sub">30 кВт</div>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export class Equipment extends React.Component {
                 </div>
                 <div class="info">
                   <div class="main">Одесса</div>
-                  <div class="sub">30 МвТ</div>
+                  <div class="sub">30 кВт</div>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ export class Equipment extends React.Component {
                 </div>
                 <div class="info">
                   <div class="main">Мелитополь</div>
-                  <div class="sub">30 МвТ</div>
+                  <div class="sub">30 кВт</div>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ export class Equipment extends React.Component {
                 </div>
                 <div class="info">
                   <div class="main">Мариуполь</div>
-                  <div class="sub">30 МвТ</div>
+                  <div class="sub">30 кВт</div>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ export class Equipment extends React.Component {
                 </div>
                 <div class="info">
                   <div class="main">Харьков</div>
-                  <div class="sub">30 МвТ</div>
+                  <div class="sub">30 кВт</div>
                 </div>
               </div>
             </div>

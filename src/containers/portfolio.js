@@ -117,7 +117,7 @@ export function Portfolio() {
             src="../images/equipment/huawei_30.png"
             alt="Equipment_invertor"
           />
-          <SubTitle>Сетевой инвертор HUAWEI SUN2000-30KTL-M3 30к Вт</SubTitle>
+          <SubTitle>Сетевой инвертор HUAWEI SUN2000-30KTL 30 кВт</SubTitle>
         </div>
         <div class="item">
           <PriceTitle> От 161$ /шт. </PriceTitle>
