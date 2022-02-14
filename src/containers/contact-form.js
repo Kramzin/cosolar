@@ -16,7 +16,7 @@ export function CustomFormContainer() {
   const [customerText, setCustomerText] = useState("");
   const [customerName, setCustomerName] = useState("");
   const client = new TelegramClient({
-    accessToken: "1961820796:AAGwFtKssjaFqL2FyBpbjbwFZCQNjy2YUMA",
+    accessToken: "******************",
   });
 
   const IsInvalid = phoneNumber === "";
