@@ -36,8 +36,8 @@ export function HeaderContainer({ children }) {
             </a>
           </div>
         </div>
-        <Header.AddressMobile>
-          +38(093) 010-01-05 <br></br> +38(073) 010-01-05
+        <Header.AddressMobile> 38 063 279 7515
+          +38(063) 279-75-15 <br></br> +38(073) 099-09-69
         </Header.AddressMobile>
       </Header.Frame>
       {children}
